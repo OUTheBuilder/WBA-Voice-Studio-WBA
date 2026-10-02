@@ -1,4 +1,4 @@
-# Publish Docker images to GitHub Container Registry (GHCR).
+# Publsh Docker images to GitHub Container Registry (GHCR).
 #
 # Triggers:
 #   - push of a tag matching `v*` (e.g. `v0.3.0`) → :0.3.0, :0.3, :latest, :sha-
