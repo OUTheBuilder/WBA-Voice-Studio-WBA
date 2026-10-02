@@ -12,6 +12,7 @@ const backendPort = process.env.OMNIVOICE_PORT || '3900';
 
 export default defineConfig({
   root,
+  base: './',
   publicDir: resolve(import.meta.dirname, 'public'),
   plugins: [
     react(),
