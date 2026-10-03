@@ -40,7 +40,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: electron/frontend/dist
+          path: frontend/dist
 
   deploy:
     needs: build
